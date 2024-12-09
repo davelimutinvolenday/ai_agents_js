@@ -19,3 +19,80 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* home page */
+#main-container {
+  /* background-color: blue; */
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-hero-banner {
+  font-size: 1.3em;
+}
+#section-ai {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#main textarea {
+  background-color: black;
+  color: white;
+  resize: none;
+  transition: width 0.3s, height 0.3s;
+  overflow: hidden;
+}
+#send-container {
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #40534C;
+  width: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+#main p {
+  transform: scale(1.7);
+  background-color: green;
+  height: 0;
+  margin-top: -40px;
+}
+#reponse-container {
+  /* background-color: red; */
+}
+/* #question-mark {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: wobbles;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transition: 1.5s;
+} */
+
+/* reusables */
+.textarea {
+  display: inline-block;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  border: 1px solid;
+  padding: 2px;
+}
+
+/* animations */
+/* @keyframes wobbles {
+  0%   {background-color:black; color: white; border: 1px dashed white; left:0px; top:-10px; transition: .5s;}
+  25%  {background-color:white; color: black; border: 1px dashed black; left:20px; top:-10px; transition: .5s;}
+  50%  {background-color:black; color: white; border: 1px dashed white; left:20px; top:10px; transition: .5s;}
+  75%  {background-color:white; color: black; border: 1px dashed black; left:0px; top:10px; transition: .5s;}
+  100% {background-color:black; color: white; border: 1px dashed white; left:0px; top:-10px; transition: .5s;}
+} */
